@@ -9,4 +9,4 @@ let age = 32;
 
 let result = age > 18 ? "You can drive" : "You cannot drive";
 
-console.log(result);
+console.log(result); // Output: "You can drive" bcoz condition is true
