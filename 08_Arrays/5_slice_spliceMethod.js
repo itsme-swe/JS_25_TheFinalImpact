@@ -16,7 +16,7 @@ console.log("Original Array:", sedanCar); // o/p: Original Array: [ 'Virtus', 'S
 
 console.log();
 
-// 2️⃣ spliced() method is used to add, remove, or replace elements in an array. And returns an returns an array containing the elements that were removed.
+// 2️⃣ spliced() method is used to add, remove, or replace elements in an array. And returns an array containing the elements that were removed and modify the original array.
 
 console.log("Before Spliced: ", companyName); // o/p: Before Spliced:  [ 'Volkswagen', 'Skoda', 'Hyundai', 'Maruti', 'Toyota', 'BMW' ]
 
