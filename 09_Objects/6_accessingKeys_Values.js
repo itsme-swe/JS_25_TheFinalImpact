@@ -22,3 +22,5 @@ console.log(Object.entries(tinderUser));
 ]
 
 */
+
+console.log(tinderUser.hasOwnProperty("userType")); // 🔸 method returns boolean value ... o/p: true
