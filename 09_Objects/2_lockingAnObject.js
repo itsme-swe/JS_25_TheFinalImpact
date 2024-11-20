@@ -1,4 +1,4 @@
-// We an freeze our objects in JS. If we freeze our object nobody can change our object properties.
+// We can freeze our objects in JS. If we freeze our object nobody can change our object properties.
 
 let newUser = {
   name: "Goku",
