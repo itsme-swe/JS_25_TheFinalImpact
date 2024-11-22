@@ -13,3 +13,15 @@ console.log();
 const addTwo = (num1, num2) => num1 + num2;
 
 console.log(addTwo(30, 20)); // o/p: 50
+
+console.log();
+
+let obj = () => {
+  return {
+    name: "Harsh",
+    car: "Slavia",
+    age: 32,
+  };
+};
+
+console.log(obj()); // o/p: { name: 'Harsh', car: 'Slavia', age: 32 }
