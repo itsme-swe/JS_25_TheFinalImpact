@@ -11,3 +11,9 @@ let x = 10;
 function sum(num1, num2) {
   return num1 + num2;
 }
+
+/*
+1️⃣ For browser this === window object.
+
+2️⃣ Anything which is not inside any function is an global space. 
+*/
