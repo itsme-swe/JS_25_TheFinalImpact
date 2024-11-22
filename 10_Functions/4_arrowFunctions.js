@@ -1,4 +1,4 @@
-//1️⃣ Basic Arrow Function
+//1️⃣ Basic Explicit return Arrow Function
 const sum = (num1, num2) => {
   return num1 + num2;
 };
