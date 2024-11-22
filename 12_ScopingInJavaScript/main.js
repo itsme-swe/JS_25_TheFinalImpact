@@ -17,4 +17,6 @@ a();
 
 🔸 So in the above example the lexical environment of function c() is function a() and the function a() lexical environment is global object and lexical environment of global object is pointing to null.
 
+2️⃣ Scope Chain ⇒ Scope chain is the chain of all lexical environments connected through their parent references.
+
 */
