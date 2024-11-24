@@ -22,3 +22,13 @@ counter.increment();
 console.log(counter.getCount()); // o/p: 3
 
 console.log(counter.count); // undefined (cannot access private variable)
+
+//💥 Passing argument in IIFI
+
+let welcomeMsg = ((msg) => {
+  return `Welcome to the club Mr.${msg} `;
+})("Harsh");
+
+let msg = welcomeMsg;
+
+console.log(msg); // o/p: Welcome to the club Mr.Harsh
