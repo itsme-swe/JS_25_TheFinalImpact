@@ -18,6 +18,7 @@ class ToyotaCar {
     this.brand = brand;
     this.mileage = mileage;
   }
+
   start() {
     console.log("Start");
   }
