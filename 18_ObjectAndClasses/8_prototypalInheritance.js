@@ -1,5 +1,7 @@
 /*
 
+💥Prototypal Inheritance ⇒ Prototypal inheritance in JavaScript is a way for objects to inherit properties and methods from other objects. This is different from classical inheritance, where classes inherit from other classes. In JavaScript, objects can directly inherit from other objects, making it more flexible.
+
 */
 
 const user = {
