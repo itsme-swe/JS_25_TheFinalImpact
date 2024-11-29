@@ -22,3 +22,24 @@ const emply1 = {
 emply1.__proto__ = employee; // Here we added resuable function to another object with the help of " __proto__ ".
 
 emply1.calTax(); // o/p: Tax rate is 20%
+
+console.log();
+
+//2️⃣ Adding any method to the top level hierarchy "Object"
+
+const heroPower = {
+  name: "Hulk",
+  color: "green",
+  power: "smash",
+};
+
+const heros = ["Hulk", "IronMan", "SpiderMan"];
+
+//🔸 By using 'Object.prototype' we can add any method to the top level. Now this function 'canFly' can be used by any datTypes.
+Object.prototype.canFly = (heros) => {
+  console.log(`${heros} can fly`);
+};
+
+heroPower.canFly("SuperMan"); // Here, object heroPower is using canFly() function
+
+heros.canFly("WonderWoman"); // Here, heros[] array using canFly() Function
