@@ -1,10 +1,13 @@
+// Here we are doubling the values
 let nums = [2, 4, 6, 8, 10];
 
-let newNums = nums.map((val) => {
-  return val * 2;
-});
+function double(x) {
+  return x * 2;
+}
 
-console.log(newNums); // o/p: [ 4, 8, 12, 16, 20 ]
+let output = nums.map(double);
+
+console.log(output); // o/p: [ 4, 8, 12, 16, 20 ]
 
 console.log();
 
@@ -22,3 +25,7 @@ let total = nums
   });
 
 console.log(total); // o/p: [ 32, 36, 40 ]
+
+console.log();
+
+/***************************/
