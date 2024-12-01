@@ -23,3 +23,16 @@ acc: 6 and curVal: 6
 acc: 12 and curVal: 8
 20
 */
+
+console.log();
+
+//💥 Now we'll be finding max value from the num array
+
+const output = num.reduce(function (acc, curr) {
+  if (curr > acc) {
+    acc = curr;
+  }
+  return acc;
+}, 0);
+
+console.log(output);
