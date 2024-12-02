@@ -12,4 +12,4 @@ Promise.race([p1, p2, p3])
   .then((res) => console.log(res))
   .catch((err) => console.error(err));
 
-// o/p: p2 fail ---- Promise.race() will return the first promise whether it is successfull or fail.
+// o/p: p2 fail ---- Promise.race() will setteled the first promise wether it is successfull or fail.
